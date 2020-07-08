@@ -2,6 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Change directory to marlin') {
+      agent any
       steps {
         dir(path: '/home/czacha/PlatformIO/Marlin') {
           sh 'git pull'
