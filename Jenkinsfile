@@ -3,8 +3,10 @@ pipeline {
   stages {
     stage('Change directory to marlin') {
       steps {
-        dir(path: '/home/czacha/PlatformIO/Marlin')
-        sh 'git pull'
+        dir(path: '/home/czacha/PlatformIO/Marlin') {
+          sh 'git pull'
+        }
+
       }
     }
 
