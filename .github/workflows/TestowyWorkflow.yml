@@ -1,0 +1,17 @@
+name: TestowyCI
+
+
+on:
+    push:
+        branches: [ Ender3-skr-mini-e3-2.0 ]
+        
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+
+        - uses: actions/checkout@v2
+        - uses: ./platformioaction
+        

@@ -1,0 +1,4 @@
+name: 'PlatformIO'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
