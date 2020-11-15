@@ -16,7 +16,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
 
@@ -26,7 +26,7 @@
 
 #if ENABLED(DGUS_LCD_UI_FYSETC)
 
-#include "../DGUSDisplayDef.h"
+#include "DGUSDisplayDef.h"
 #include "../DGUSDisplay.h"
 #include "../DGUSScreenHandler.h"
 
@@ -35,7 +35,7 @@
 #include "../../../../../module/planner.h"
 
 #include "../../../ui_api.h"
-#include "../../../../ultralcd.h"
+#include "../../../../marlinui.h"
 
 #if ENABLED(DGUS_UI_MOVE_DIS_OPTION)
   uint16_t distanceToMove = 10;

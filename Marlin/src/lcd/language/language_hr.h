@@ -16,7 +16,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
 #pragma once
@@ -26,7 +26,6 @@
  *
  * LCD Menu Messages
  * See also https://marlinfw.org/docs/development/lcd_language.html
- *
  */
 
 #define DISPLAY_CHARSET_ISO10646_1 // use the better font on full graphic displays.
@@ -42,7 +41,7 @@ namespace Language_hr {
   PROGMEM Language_Str MSG_MEDIA_REMOVED                   = _UxGT("SD kartica uklonjena");
   PROGMEM Language_Str MSG_LCD_ENDSTOPS                    = _UxGT("Endstops"); // Max length 8 characters
   PROGMEM Language_Str MSG_MAIN                            = _UxGT("Main");
-  PROGMEM Language_Str MSG_AUTOSTART                       = _UxGT("Auto pokretanje");
+  PROGMEM Language_Str MSG_RUN_AUTO_FILES                  = _UxGT("Auto pokretanje");
   PROGMEM Language_Str MSG_DISABLE_STEPPERS                = _UxGT("Ugasi steppere");
   PROGMEM Language_Str MSG_AUTO_HOME                       = _UxGT("Automatski homing");
   PROGMEM Language_Str MSG_AUTO_HOME_X                     = _UxGT("Home-aj X");
